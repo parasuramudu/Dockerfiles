@@ -1,0 +1,2 @@
+FROM centos:8
+RUN sudo yum install nginx -y
