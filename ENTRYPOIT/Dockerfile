@@ -1,3 +1,4 @@
 FROM almalinux:8
 #CMD [ "ping","-c5","google.com" ]
-ENTRYPOINT [ "ping","-c5","facebook.com" ]
+CMD [ "facebook.com" ]
+ENTRYPOINT [ "ping","-c5" ]
