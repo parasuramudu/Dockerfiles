@@ -1,4 +1,5 @@
 ARG VERSION
 FROM almalinux:${VERSION:-8}
-ARG greeting="this is from arg"
+ARG greeting
+ENV entry=greeting
 RUN echo "${greeting}"
